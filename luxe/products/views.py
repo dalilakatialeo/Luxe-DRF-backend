@@ -6,18 +6,18 @@ from rest_framework.response import Response
 from .models import Product
 from .serializers import ProductSerializer, ProductDetailSerializer
 
-class Recommendation(APIVIew):
-    def post(self, request):
-        user_recommendation = Recommendation.objects.filter(user =request.user).first()
-        if user_recommendation:
-            return Response(dict(answer= user_recommendation))
-        answer_questions = request.body 
-        recommendation = workout_recommendation(answer_questions)
-        return Response(dict(answer=recommendation))
+#class Recommendation(APIVIew):
+    #def post(self, request):
+        #user_recommendation = Recommendation.objects.filter(user =request.user).first()
+        #if user_recommendation:
+        #    return Response(dict(answer= user_recommendation))
+        #answer_questions = request.body 
+        #recommendation = workout_recommendation(answer_questions)
+        #return Response(dict(answer=recommendation))
 
-def workout_recommendation(answer_questions):
+    #def workout_recommendation(answer_questions):
     #if statment logic stuff here
-    return recommendation
+    #return recommendation
 
 class ProductList(APIView):
     def get(self, request):
