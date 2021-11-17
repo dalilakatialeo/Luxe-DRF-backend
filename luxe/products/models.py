@@ -2,20 +2,15 @@ from django.db import models
 
 # Create your models here.
 class Product(models.Model):
-    make = models.TextField()
-    model = models.TextField()
-    price = models.FloatField()
-    engine = models.TextField()
-    colour = models.TextField()
-    image = models.URLField()
-    rating = models.FloatField()
-    owner = models.CharField(max_length=200)
-    # make_rating = models.TextField()
-    # model_rating = models.TextField()
-    # price_rating = models.FloatField()
-    # engine_rating = models.TextField()
-    # colour_rating = models.TextField()
-    # image_rating = models.URLField()
-    # rating_total = models.FloatField()
-    # owner = models.CharField(max_length=200)
+    make = models.TextField(null=True)
+    model = models.TextField(null=True)
+    price = models.FloatField(null=True)
+    engine = models.TextField(null=True)
+    fuel = models.TextField(null=True)
+    body_type = models.TextField(null=True)
+    colour = models.TextField(null=True)
+    url = models.TextField(null=True)
+    image = models.URLField(null=True)
+
+
 
