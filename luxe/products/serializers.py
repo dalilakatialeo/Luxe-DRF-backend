@@ -4,7 +4,7 @@ from .models import Product
 class ProductSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
     make = serializers.CharField(max_length=200)
-    model = serializers.CharField(max_length=200)
+    car_model = serializers.CharField(max_length=200)
     price = serializers.FloatField()
     engine = serializers.CharField(max_length=200)
     body_type = serializers.CharField(max_length=200)
@@ -20,7 +20,7 @@ class ProductSerializer(serializers.Serializer):
 class ProductDetailSerializer(ProductSerializer):
     def update(self, instance, validated_data):
         instance.make = validated_data.get('make', instance.make)
-        instance.model = validated_data.get('model', instance.model)
+        instance.car_model = validated_data.get('car_model', instance.car_model)
         instance.price = validated_data.get('price', instance.price)
         instance.engine = validated_data.get('engine', instance.engine)
         instance.fuel = validated_data.get('fuel', instance.fuel)
