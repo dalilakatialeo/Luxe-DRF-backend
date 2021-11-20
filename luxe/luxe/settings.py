@@ -40,10 +40,10 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'products.apps.ProductsConfig',
     'rest_framework',
     'rest_framework.authtoken',
-    'users.apps.UsersConfig',
     'corsheaders',
     'django.contrib.admin',
     'django.contrib.auth',
@@ -66,6 +66,8 @@ MIDDLEWARE = [
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
+
+AUTH_USER_MODEL = 'users.CustomUser'
 
 ROOT_URLCONF = 'luxe.urls'
 
