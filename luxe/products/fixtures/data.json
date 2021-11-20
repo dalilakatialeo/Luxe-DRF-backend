@@ -1,0 +1,377 @@
+[
+    {
+        "pk": 1,
+        "model": "products.Product",
+        "fields": {
+            "make": "Bentley",
+            "car_model": "Mulsanne Speed",
+            "price": 569.5,
+            "engine": "6.8-litre Twin Turbo V8",
+            "body_type": "sedan",
+            "fuel": "petrol",
+            "colour": "Black",
+            "url": "https://www.motor1.com/news/61003/bentley-mulsanne-speed-beluga-edition-introduced/",
+            "image": "https://www.lamborghinigoldcoast.com/imagetag/7802/2/l/New-2019-Bentley-Mulsanne-Speed-Speed-1563822913.jpg"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "products.Product",
+        "fields": {
+            "make": "Ferrari",
+            "car_model": "GTC4Lusso",
+            "price": 578.0,
+            "engine": "6.3-litre V12",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "White",
+            "url": "https://www.whichcar.com.au/reviews/2017-ferrari-gtc4-lusso-targa-tasmania-review",
+            "image": "https://i.pinimg.com/564x/6f/3f/43/6f3f432b58ffd3a57d9123eb7ac5b6c0.jpg"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "products.Product",
+        "fields": {
+            "make": "Rolls-Royce",
+            "car_model": "Ghost",
+            "price": 595.0,
+            "engine": "6.7-litre V12",
+            "body_type": "sedan",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.whichcar.com.au/reviews/rolls-royce-ghost-series-ii-review",
+            "image": "https://assets.whichcar.com.au/image/upload/s--oTBFlRAO--/ar_2.304921968787515,c_fill,f_auto,q_auto:good/c_scale,w_2048/v1/archive/wheels/2015/04/02/34553/RR-Ghost-005.jpg"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "products.Product",
+        "fields": {
+            "make": "Ferrari",
+            "car_model": "812 Superfast",
+            "price": 610.0,
+            "engine": "6.5-litre V12",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Gray",
+            "url": "https://www.businessinsider.com.au/ferrari-812-gts-first-convertible-v12-ferrari-in-50-years-2019-9?r=US&IR=T",
+            "image": "https://static.businessinsider.com/image/5d764da82e22af67ba4b7662.jpg"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "products.Product",
+        "fields": {
+            "make": "Bentley",
+            "car_model": "Continental Supersports",
+            "price": 626.475,
+            "engine": "6.0-litre W12",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "White",
+            "url": "https://www.supercars.net/blog/2011-bentley-continental-supersports-isr-convertible/",
+            "image": "https://carsmind.com/cache/image/c55e26f36db6093c910d6304623d40f1/acc_p_c12d5_bentleycontinentalsupersportsconvertible_white.jpg"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "products.Product",
+        "fields": {
+            "make": "Rolls-Royce",
+            "car_model": "Wraith",
+            "price": 645.0,
+            "engine": "6.6-litre twin-turbo V12",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.smf-blog.com/rolls-royce-wraith-coupe/",
+            "image": "https://cdn.motor1.com/images/mgl/EMkq3/s1/rolls-royce-wraith-black-badge-feature.jpg"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "products.Product",
+        "fields": {
+            "make": "Porsche",
+            "car_model": "911 GT2 RS",
+            "price": 645.4,
+            "engine": "3.8 -litre twin-turbocharged flat-6",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "Gray",
+            "url": "https://www.wallpaperflare.com/grey-luxury-car-porsche-911-gt2-rs-2018-4k-wallpaper-175215",
+            "image": "https://c4.wallpaperflare.com/wallpaper/356/622/428/porsche-911-gt2-rs-2018-4k-wallpaper-preview.jpg"
+        }
+    },
+    {
+        "pk": 8,
+        "model": "products.Product",
+        "fields": {
+            "make": "Rolls-Royce",
+            "car_model": "Dawn",
+            "price": 749.0,
+            "engine": "6.6-litre twin-turbo V12",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Red",
+            "url": "https://www.rollsroycepasadena.com/2020-rolls-royce-dawn-interior/",
+            "image": "https://images.hgmsites.net/hug/2020-rolls-royce-dawn-black-badge_100759945_h.jpg"
+        }
+    },
+    {
+        "pk": 9,
+        "model": "products.Product",
+        "fields": {
+            "make": "Lamborghini",
+            "car_model": "Aventodor S",
+            "price": 789.5,
+            "engine": "6.5-litre V12",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "Yellow",
+            "url": "https://www.lambonb.com/aventadors/",
+            "image": "https://www.carligious.com/images/easyblog_articles/261/aventador-S-cover.jpg"
+        }
+    },
+    {
+        "pk": 10,
+        "model": "products.Product",
+        "fields": {
+            "make": "Rolls-Royce",
+            "car_model": "Phantom",
+            "price": 950.0,
+            "engine": "6.7-litre V12",
+            "body_type": "sedan",
+            "fuel": "petrol",
+            "colour": "White",
+            "url": "https://www.drive.com.au/news/2021-rolls-royce-ghost-revealed/",
+            "image": "https://luxurylaunches.com/wp-content/uploads/2017/10/Rolls-Royce-Phantom-VIII-Swiss-Alps.jpeg"
+        }
+    },
+    {
+        "pk": 11,
+        "model": "products.Product",
+        "fields": {
+            "make": "Mercedes Benz",
+            "car_model": "SLS AMG Black Series",
+            "price": 639.0,
+            "engine": "6.2-litre V8",
+            "body_type": "coupe",
+            "fuel": "petrol",
+            "colour": "Black",
+            "url": "https://www.cars.com/research/mercedes_benz-sls_amg_black_series-2014/",
+            "image": "https://images.hgmsites.net/hug/2014-mercedes-benz-sls-amg-black-series_100637112_h.jpg"
+        }
+    },
+    {
+        "pk": 12,
+        "model": "products.Product",
+        "fields": {
+            "make": "Maserati",
+            "car_model": "Ghibli GranSport",
+            "price": 160.0,
+            "engine": "6.0 litre 3.0L turbo",
+            "body_type": "sedan",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.latimes.com/business/la-xpm-2014-mar-14-la-fi-hy-maserati-20140315-story.html",
+            "image": "https://di-uploads-pod23.dealerinspire.com/scottsdalemaserati/uploads/2020/02/cq5dam.web_.1400.10000.jpeg"
+        }
+    },
+    {
+        "pk": 13,
+        "model": "products.Product",
+        "fields": {
+            "make": "Jaguar",
+            "car_model": "F-Pace 30D S AWD",
+            "price": 105.5,
+            "engine": "3.0-litre 6-cyl, turbo-diesel mild-hybrid",
+            "body_type": "SUV",
+            "fuel": "petrol",
+            "colour": "Red",
+            "url": "https://www.carexpert.com.au/jaguar/f-pace/2016-30d-s-0fc65196",
+            "image": "https://c.encycarpedia.com/ci/3740.jpg"
+        }
+    },
+    {
+        "pk": 14,
+        "model": "products.Product",
+        "fields": {
+            "make": "Porsche",
+            "car_model": "Taycan 4S",
+            "price": 245.0,
+            "engine": "6.7-litre V12",
+            "body_type": "sedan",
+            "fuel": "petrol",
+            "colour": "Black",
+            "url": "https://finder.porsche.com/ro/en-RO/details/porsche-taycan-4s-new-J6RGMP",
+            "image": "https://images3.alphacoders.com/112/thumb-1920-1121584.jpg"
+        }
+    },
+    {
+        "pk": 15,
+        "model": "products.Product",
+        "fields": {
+            "make": "Land Rover",
+            "car_model": "Defender",
+            "price": 101.6,
+            "engine": "3.0-litre",
+            "body_type": "SUV",
+            "fuel": "diesel",
+            "colour": "Black",
+            "url": "https://www.carmagazine.co.uk/car-news/first-official-pictures/land-rover/defender/",
+            "image": "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/2021-Land-Rover-Defender-90-P525-SUV-black-1001x565-1.jpg"
+        }
+    },
+    {
+        "pk": 16,
+        "model": "products.Product",
+        "fields": {
+            "make": "Audi",
+            "car_model": "R8 Spyder Quattro Plus 4S",
+            "price": 424.5,
+            "engine": "5.2-litre 40v V10",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Yellow",
+            "url": "https://www.topgear.com/car-reviews/audi/r8-1",
+            "image": "https://www.autoguide.com/blog/wp-content/gallery/2017-audi-r8-spyder-1/2017AudiR8Spyder015.jpg"
+        }
+    },
+    {
+        "pk": 17,
+        "model": "products.Product",
+        "fields": {
+            "make": "BMW",
+            "car_model": "M8 Competition",
+            "price": 352.9,
+            "engine": "6.7-litre V12",
+            "body_type": "SUV",
+            "fuel": "petrol",
+            "colour": "Black",
+            "url": "https://www.thedrive.com/new-cars/40232/2021-bmw-x6-m-competition-review-this-automotive-marvel-movie-is-loud-impressive-and-forgettable",
+            "image": "https://claveyscorner.com/wp-content/uploads/2021/05/2021-BMW-X6-M-Top-Shot-001-1000x667@2x.jpg"
+        }
+    },
+    {
+        "pk": 18,
+        "model": "products.Product",
+        "fields": {
+            "make": "BMW",
+            "car_model": "4 Series",
+            "price": 135.0,
+            "engine": "6.5-litre V12",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Green",
+            "url": "https://www.press.bmwgroup.com/global/article/detail/T0317628EN/the-all-new-bmw-4-series-convertible?language=en",
+            "image": "https://cdn.jdpower.com/JDPA_2021%20BMW%204%20Series%20Convertible%20Green%20Top%20Down%20Driving%20at%20Beach.jpg"
+        }
+    },
+    {
+        "pk": 19,
+        "model": "products.Product",
+        "fields": {
+            "make": "Audi",
+            "car_model": "E-Tron",
+            "price": 150.0,
+            "engine": "6.0-litre W12",
+            "body_type": "SUV",
+            "fuel": "petrol",
+            "colour": "Black",
+            "url": "https://insideevs.com/features/487670/audi-etron-sportback-dynamic-refined/",
+            "image": "https://dlmag.com/wp-content/uploads/2019/11/Small-2020-Audi-e-tron-Sportback-European-car_model-shown-6376.jpg"
+        }
+    },
+    {
+        "pk": 20,
+        "model": "products.Product",
+        "fields": {
+            "make": "Tesla",
+            "car_model": "Model S",
+            "price": 150.0,
+            "engine": "6.6-litre twin-turbo V12",
+            "body_type": "coupe",
+            "fuel": "electrical",
+            "colour": "Red",
+            "url": "https://www.tesla.com/en_eu",
+            "image": "https://www.topgear.com/sites/default/files/images/news-article/2020/09/b545362cfc4bc0818da57ed0e40a5e44/1.jpg"
+        }
+    },
+    {
+        "pk": 21,
+        "model": "products.Product",
+        "fields": {
+            "make": "Mercedes Benz",
+            "car_model": "AMG S65 Cabriolet",
+            "price": 522.0,
+            "engine": "6.2-litre V8",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "White",
+            "url": "https://www.motor1.com/news/128589/mercedes-maybach-s650-cabriolet-reveal/",
+            "image": "https://images.caricos.com/m/mercedes-benz/2017_mercedes-amg_s63_cabrio/images/1920x1080/2017_mercedes-amg_s63_cabrio_1_1920x1080.jpg"
+        }
+    },
+    {
+        "pk": 22,
+        "model": "products.Product",
+        "fields": {
+            "make": "Mercedes Benz",
+            "car_model": "Maybach GLS600",
+            "price": 630.0,
+            "engine": "6.6-litre twin-turbo V12",
+            "body_type": "SUV",
+            "fuel": "petrol",
+            "colour": "Red",
+            "url": "https://www.mercedes-benz.com.au/passengercars/mercedes-benz-cars/models/gls/mercedes-maybach-x167/explore.html",
+            "image": "https://www.somagnews.com/wp-content/uploads/2019/11/f9-1-e1574538066287.jpg"
+        }
+    },
+    {
+        "pk": 23,
+        "model": "products.Product",
+        "fields": {
+            "make": "Jaguar",
+            "car_model": "F-TYPE",
+            "price": 105.5,
+            "engine": "3.0-litre 6-cyl, turbo-diesel mild-hybrid",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.forbes.com/sites/nargessbanks/2019/12/02/jaguar-f-type/?s",
+            "image": "https://s1.1zoom.me/big0/178/Jaguar_2016_F-Type_SVR_Light_Blue_Cabriolet_512507_1280x853.jpg"
+        }
+    },
+    {
+        "pk": 24,
+        "model": "products.Product",
+        "fields": {
+            "make": "Lamborghini",
+            "car_model": "Aventador",
+            "price": 789.5,
+            "engine": "6.5-litre V12",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.lamborghini.com/en-en/brand/masterpieces/aventador-superveloce-roadster",
+            "image": "https://cdn.carbuzz.com/gallery-images/1600/664000/700/664717.jpg"
+        }
+    },
+    {
+        "pk": 25,
+        "model": "products.Product",
+        "fields": {
+            "make": "Maserati",
+            "car_model": "MC20",
+            "price": 438.0,
+            "engine": "6.0 litre 3.0L turbo",
+            "body_type": "convertible",
+            "fuel": "petrol",
+            "colour": "Blue",
+            "url": "https://www.autocar.co.uk/car-news/new-cars/mc20-supercar-will-lead-bold-maserati-revival",
+            "image": "https://media.evo.co.uk/image/private/s--qJTixTMN--/f_auto,t_content-image-desktop@1/v1556225806/evo/images/dir_1068/car_photo_534136.jpg"
+        }
+    }
+]

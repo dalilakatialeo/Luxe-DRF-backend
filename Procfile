@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath luxe luxe.wsgi --log-file -
