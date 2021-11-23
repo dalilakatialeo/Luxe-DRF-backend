@@ -20,6 +20,7 @@ from .serializers import ProductSerializer, ProductDetailSerializer
     #return recommendation
 
 class ProductList(APIView):
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     def get(self, request):
         products = Product.objects.all()
         serializer = ProductSerializer(products, many=True)

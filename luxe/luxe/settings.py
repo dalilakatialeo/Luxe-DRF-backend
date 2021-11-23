@@ -38,7 +38,9 @@ CORS_ALLOW_ALL_ORIGINS = True
 
 # Application definition
 
+
 INSTALLED_APPS = [
+    'users.apps.UsersConfig',
     'products.apps.ProductsConfig',
     'rest_framework',
     'rest_framework.authtoken',
@@ -50,6 +52,14 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 ]
+
+REST_FRAMEWORK = {
+    'DEFAULT_AUTHENTICATION_CLASSES': [
+        'rest_framework.authentication.TokenAuthentication',
+    ]
+}
+
+AUTH_USER_MODEL = 'users.CustomUser'
 
 MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
@@ -88,24 +98,24 @@ WSGI_APPLICATION = 'luxe.wsgi.application'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
 #  development database with sqlite3
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': BASE_DIR / 'db.sqlite3',
-#     }
-# }
-
-# production database with postgres
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'dib90m9gmcgd6',
-        'USER': 'xbqjmppqjrfcze',
-        'PASSWORD': '174c2ba398c90353ec31709db6fcb8185d56e8fda417dbb45308b577c52723ec',
-        'HOST': 'ec2-44-198-236-169.compute-1.amazonaws.com',
-        'PORT': '5432'
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+# production database with postgres
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+#         'NAME': 'dib90m9gmcgd6',
+#         'USER': 'xbqjmppqjrfcze',
+#         'PASSWORD': '174c2ba398c90353ec31709db6fcb8185d56e8fda417dbb45308b577c52723ec',
+#         'HOST': 'ec2-44-198-236-169.compute-1.amazonaws.com',
+#         'PORT': '5432'
+#     }
+# }
 
 db_from_env = dj_database_url.config(conn_max_age=500)
 DATABASES['default'].update(db_from_env)
@@ -135,7 +145,7 @@ AUTH_PASSWORD_VALIDATORS = [
 
 LANGUAGE_CODE = 'en-us'
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Australia/Brisbane'
 
 USE_I18N = True
 
