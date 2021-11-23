@@ -4,7 +4,7 @@ from rest_framework.views import APIView
 from rest_framework.response import Response
 from rest_framework import status
 from .models import CustomUser
-from .serializers import CustomUserSerializer, UserDetailSerializer
+from .serializers import CustomUserSerializer
 
 # Create your views here.
 
@@ -42,7 +42,7 @@ class CustomUserDetail(APIView):
     def put(self, request, pk):
         user = self.get_object(pk)
         data = request.data
-        serializer = UserDetailSerializer(
+        serializer = CustomUserSerializer(
             instance=user,data=data,partial=True
         )
         if serializer.is_valid():
