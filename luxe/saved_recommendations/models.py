@@ -7,7 +7,8 @@ class SavedRecommendation(models.Model):
     owner = models.ForeignKey(
         get_user_model(),
         on_delete=models.CASCADE,
-        related_name='owner_recommendations')
+        related_name='owner_recommendations'
+        )
     product = models.ForeignKey(
         'products.Product',
         on_delete=models.CASCADE,

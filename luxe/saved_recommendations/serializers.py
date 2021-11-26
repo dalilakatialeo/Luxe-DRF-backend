@@ -11,8 +11,8 @@ class SavedRecommendationSerializer(serializers.Serializer):
 
 class SavedRecommendationDetailSerializer(SavedRecommendationSerializer):
     def update(self, instance, validated_data):
-        instance.product_id = validated_data.get('product_id', instance.make)
-        instance.user_id = validated_data.get('user_id', instance.car_model)
+        instance.product_id = validated_data.get('product_id', instance.product_id)
+        instance.user_id = validated_data.get('user_id', instance.user_id)
     
         instance.save() 
         return instance
