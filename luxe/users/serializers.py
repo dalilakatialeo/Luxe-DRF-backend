@@ -20,7 +20,7 @@ class CustomUserSerializer(serializers.ModelSerializer):
         return user
  
  #update user details - name and email
- class UserDetailSerializer(CustomUserSerializer):
+class UserDetailSerializer(CustomUserSerializer):
   
     def update(self, instance, validated_data):
         instance.username = validated_data.get('username', instance.username)
