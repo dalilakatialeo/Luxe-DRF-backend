@@ -42,7 +42,6 @@ CORS_ALLOW_ALL_ORIGINS = True
 INSTALLED_APPS = [
     'users.apps.UsersConfig',
     'products.apps.ProductsConfig',
-    'saved_recommendations.apps.SavedRecommendationsConfig',
     'rest_framework',
     'rest_framework.authtoken',
     'corsheaders',
