@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import Product
+from .models import Product, Recommendation
 
 class ProductSerializer(serializers.Serializer):
     id = serializers.ReadOnlyField()
@@ -31,3 +31,23 @@ class ProductDetailSerializer(ProductSerializer):
     
         instance.save() 
         return instance
+
+class RecommendationSerializer(serializers.Serializer):
+    #products = ProductSerializer(many=True, read_only=True)
+
+
+    id = serializers.ReadOnlyField()
+    owner = serializers.ReadOnlyField(source='owner.id')
+    product_id = serializers.IntegerField()
+
+    def create(self, validated_data):
+        return Recommendation.objects.create(**validated_data)
+
+class RecommendationDetailSerializer(RecommendationSerializer):
+
+    def update(self, instance, validated_data):
+        instance.product_id = validated_data.get('product_id', instance.product_id)
+        instance.owner = validated_data.get('owner', instance.owner)
+        instance.save()
+        return instance
+
