@@ -1,3 +1,3 @@
 # plus-bris-2021-the-flat-bytes-drf
 
-This is the readme
+Deployed at https://mighty-ravine-43932.herokuapp.com/
